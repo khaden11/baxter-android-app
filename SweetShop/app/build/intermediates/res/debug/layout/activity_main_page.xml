@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainPage"
+                android:background="@android:color/holo_red_light">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center">
+
+        <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="BAXTER'S"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textSize="50dp"
+              android:textColor="@android:color/white"
+              android:shadowColor="@android:color/black"
+              android:shadowDx="10"
+              android:shadowDy="10"
+              android:shadowRadius="20"/>
+
+        <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="SWEET SHOP"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textSize="50dp"
+              android:textColor="@android:color/white"
+              android:shadowColor="@android:color/black"
+              android:shadowDx="10"
+              android:shadowDy="10"
+              android:shadowRadius="20"/>
+
+        <ImageView android:id="@+id/clicksweets"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/sweetshop"
+                   android:onClick="onClick"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/kieranhaden/Documents/BAXTERAPP/SweetShop/app/src/main/res/layout/activity_main_page.xml -->
